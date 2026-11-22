@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3EBDD"/>
+      <stop offset="1" stop-color="#E3D3BC"/>
+    </linearGradient>
+    <linearGradient id="irid" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3FA98A"/>
+      <stop offset="0.55" stop-color="#4E9E9B"/>
+      <stop offset="1" stop-color="#7B63B5"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect x="56" y="56" width="912" height="912" rx="205" fill="url(#bg)"/>
+
+  <!-- 地面投影 -->
+  <ellipse cx="640" cy="884" rx="215" ry="26" fill="#B7A183" opacity="0.45" filter="url(#soft)"/>
+
+  <!-- 腿 -->
+  <g stroke="#D97A6C" stroke-width="12" stroke-linecap="round" fill="none">
+    <path d="M 578 780 L 574 844 M 574 844 l -20 17 M 574 844 l 0 23 M 574 844 l 20 17"/>
+    <path d="M 648 784 L 644 848 M 644 848 l -20 17 M 644 848 l 0 23 M 644 848 l 20 17"/>
+  </g>
+
+  <!-- 身体底色 -->
+  <path d="M 808 408
+           L 754 392
+           C 766 352 742 322 704 316
+           C 664 310 632 332 622 366
+           C 614 398 596 424 570 444
+           C 520 482 472 534 446 610
+           C 360 614 270 616 186 620
+           C 172 630 170 648 174 664
+           C 178 680 176 694 184 706
+           C 272 714 364 712 446 706
+           C 470 752 530 782 596 784
+           C 676 786 752 744 792 686
+           C 824 640 834 574 812 520
+           C 796 478 774 446 752 428
+           C 744 422 738 416 732 412
+           Z" fill="#7C8B99"/>
+
+  <!-- 尾羽（深一档） -->
+  <path d="M 446 610
+           C 360 614 270 616 186 620
+           C 172 630 170 648 174 664
+           C 178 680 176 694 184 706
+           C 272 714 364 712 446 706 Z" fill="#525F6B"/>
+
+  <!-- 折叠翅膀（最深） -->
+  <path d="M 446 610
+           C 500 545 560 496 618 466
+           C 660 486 700 522 720 566
+           C 710 600 680 645 640 670
+           C 600 690 520 706 446 700 Z" fill="#5A6773"/>
+
+  <!-- 白肚 -->
+  <path d="M 812 566
+           C 764 620 690 664 610 690
+           C 540 712 490 714 446 700
+           C 456 730 482 754 516 768
+           C 580 792 656 782 714 748
+           C 768 714 798 652 812 566 Z" fill="#F4EFE5"/>
+
+  <!-- 翅端羽缝 -->
+  <g stroke="#8C99A6" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 470 646 C 490 668 500 686 504 700"/>
+    <path d="M 508 638 C 528 660 538 678 542 692"/>
+    <path d="M 546 630 C 564 650 574 668 578 682"/>
+  </g>
+
+  <!-- 尾羽缝 -->
+  <g stroke="#8C99A6" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <path d="M 240 640 L 400 660"/>
+    <path d="M 240 676 L 400 686"/>
+  </g>
+
+  <!-- 头冠高光 -->
+  <path d="M 648 330 C 682 314 716 318 740 342 C 710 332 678 334 654 350 Z" fill="#93A1AD" opacity="0.55"/>
+
+  <!-- 颈部虹彩 -->
+  <path d="M 606 438 C 644 466 688 470 716 448 C 702 486 652 496 616 464 Z" fill="url(#irid)" opacity="0.6"/>
+
+  <!-- 眼睛 -->
+  <circle cx="688" cy="352" r="12" fill="#D9772F"/>
+  <circle cx="688" cy="352" r="6" fill="#1C1F22"/>
+  <circle cx="684" cy="348" r="3" fill="#FFFFFF"/>
+
+  <!-- 鼻瘤与喙 -->
+  <ellipse cx="746" cy="390" rx="13" ry="8" fill="#F2EFE9"/>
+  <path d="M 744 394 L 806 408 L 746 420 Z" fill="#3E444B"/>
+</svg>
