@@ -225,7 +225,7 @@ When `access_token` is set, every endpoint checks `Authorization`; when it's emp
 
 Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE). You may use, modify and redistribute Pigeon, including commercially and inside closed-source products, provided you keep the copyright and license notices. The license also grants an express patent license and does not grant any right to the "Pigeon" name or logo.
 
-Pigeon bundles third-party crates and packages under their own licenses. The full inventory and every referenced license text are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md),, which also ships inside each built app bundle.
+Pigeon bundles third-party crates and packages under their own licenses. The full inventory and every referenced license text are in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md), which also ships inside each built app bundle.
 
 ## Trademark
 
